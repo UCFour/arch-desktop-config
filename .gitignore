@@ -18,3 +18,4 @@ local-state/noctalia/state.toml
 local-state/noctalia/plugins/
 local-state/noctalia/community-templates/
 local-state/noctalia/community-palettes/
+config/niri/config.kdl.before-gpu-switch-*
