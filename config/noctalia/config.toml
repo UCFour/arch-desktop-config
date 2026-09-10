@@ -1,0 +1,77 @@
+[shell]
+settings_show_advanced = true
+corner_radius_scale = 1.2
+button_borders = true
+input_borders = true
+popup_borders = true
+card_borders = true
+popup_shadows = true
+font_family = "sans-serif"
+
+[theme]
+mode = "dark"
+
+[bar]
+order = ["main"]
+
+[bar.main]
+enabled = true
+position = "top"
+auto_hide = false
+smart_auto_hide = false
+reserve_space = true
+layer = "top"
+
+thickness = 40
+background_opacity = 0.55
+border = "#ef70b7"
+border_width = 0.0
+shadow = true
+contact_shadow = false
+
+radius = 20
+radius_top_left = 20
+radius_top_right = 20
+radius_bottom_left = 20
+radius_bottom_right = 20
+
+margin_ends = 420
+margin_edge = 8
+padding = 12
+widget_spacing = 10
+hover_highlight = true
+scale = 1.0
+font_scale = 1.0
+font_weight = 500
+
+[dock]
+enabled = true
+position = "bottom"
+active_monitor_only = false
+icon_size = 44
+main_axis_padding = 12
+cross_axis_padding = 7
+item_spacing = 6
+background_opacity = 0.45
+border = "#ef70b7"
+border_width = 0.0
+shadow = true
+radius = 16
+margin_ends = 0
+margin_edge = 12
+show_running = true
+auto_hide = true
+smart_auto_hide = false
+reserve_space = true
+layer = "top"
+active_scale = 1.0
+inactive_scale = 0.85
+magnification = true
+magnification_scale = 1.35
+active_opacity = 1.0
+inactive_opacity = 0.85
+show_instance_count = true
+show_dots = true
+launcher_position = "start"
+launcher_icon = "grid-dots"
+pinned = ["firefox", "org.gnome.Nautilus", "com.mitchellh.ghostty"]
